@@ -1,0 +1,47 @@
+body {
+ background-image: url("https://wallpapercave.com/wp/wp8012893.jpg");
+ background-size: 1370px;
+}
+ 
+
+ 
+
+.btn:hover {
+ background-color:orange;
+}
+
+.btn{
+color:white;
+border:1px solid Black;
+transition:2s all; 
+}
+.Rahmen {
+	border: 1px solid black;
+}
+
+table {
+	margin: 0 auto;
+}
+
+tr {
+	 border: 1px solid black;
+}
+
+th {
+	 border: 1px solid black;
+	 padding: 5px;
+}
+
+td { 
+     border: 1px solid black; 
+	 padding: 5px;
+}	
+
+
+.festegroesse {
+	width: 400px;
+}
+
+.container {
+	padding: 35px;
+}
