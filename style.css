@@ -10,17 +10,17 @@
 }
 
 .btn:hover {
-	background-color: orange;
+	background-color: grey;
 }
 
 .btn {
 	color: white;
-	border: 1px solid Black;
+	border: 1px solid white;
 	transition: 2s all;
 }
 
 .Rahmen {
-	border: 1px solid black;
+	border: 1px solid white;
 }
 
 table {
