@@ -13,7 +13,7 @@ body {
 .btn{
 color:white;
 border:1px solid white;
-transition:2s all; 
+transition:2s all;
 }
 .Rahmen {
 	border: 1px solid white;
@@ -40,6 +40,8 @@ td {
 
 .festegroesse {
 	width: 400px;
+	background-color:orange;
+
 }
 
 .container {
