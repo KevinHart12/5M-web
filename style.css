@@ -8,10 +8,11 @@
 	background: black;
 	color: white;
 }
+
 #color {
 	background-color:black
 }
-.card { 
+.card {
 background-color: lightblue
 }
 
@@ -25,25 +26,26 @@ background-color: lightblue
 	transition: 2s all;
 }
 
-.Rahmen {
+.rahmen {
 	border: 1px solid white;
 }
 
 table {
 	margin: 0 auto;
+	color: white;
 }
 
 tr {
-	border: 1px solid black;
+	border: 1px solid white;
 }
 
 th {
-	border: 1px solid black;
+	border: 1px solid white;
 	padding: 5px;
 }
 
 td {
-	border: 1px solid black;
+	border: 1px solid white;
 	padding: 5px;
 }
 
@@ -113,6 +115,11 @@ header .overlay {
 #ueberschrift1 {
 	font-family: 'Anton', sans-serif;
 }
+
+.banner-text {
+	font-family: 'Anton', sans-serif;
+}
+
 #size {
 	width:200px;
 	height:200px;
