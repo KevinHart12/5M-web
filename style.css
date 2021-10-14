@@ -1,101 +1,102 @@
 .background {
-	background-image: url("background.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #backgroundcolor {
-	background: black;
-	color: white;
+    background: black;
+    color: white;
 }
 
 #color {
-	background-color:black
+    background-color: black
 }
+
 .card {
-background-color: lightblue
+    background-color: lightblue
 }
 
 .btn:hover {
-	background-color: black;
+    background-color: black;
 }
 
 .btn {
-	color: white;
-	border: 1px solid white;
-	transition: 2s all;
+    color: white;
+    border: 1px solid white;
+    transition: 2s all;
 }
 
 .rahmen {
-	border: 1px solid white;
+    border: 1px solid white;
 }
 
 table {
-	margin: 0 auto;
-	color: white;
+    margin: 0 auto;
+    color: white;
 }
 
 tr {
-	border: 1px solid white;
+    border: 1px solid white;
 }
 
 th {
-	border: 1px solid white;
-	padding: 5px;
+    border: 1px solid white;
+    padding: 5px;
 }
 
 td {
-	border: 1px solid white;
-	padding: 5px;
+    border: 1px solid white;
+    padding: 5px;
 }
 
 
 .festegroesse {
-	width: 400px;
+    width: 400px;
 }
 
 .container {
-	padding: 35px;
+    padding: 35px;
 }
 
 header {
-	position: relative;
-	background-color: black;
-	height: 75vh;
-	min-height: 25rem;
-	width: 100%;
-	overflow: hidden;
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
 }
 
 header video {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: 0;
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 header .container {
-	position: relative;
-	z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 header .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background-color: black;
-	opacity: 0.5;
-	z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
 }
 
 /* Media Query for devices withi coarse pointers and no hover functionality */
@@ -103,28 +104,33 @@ header .overlay {
 /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
 
 @media (pointer: coarse) and (hover: none) {
-	header {
-		background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-	}
+    header {
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
 
-	header video {
-		display: none;
-	}
+    header video {
+        display: none;
+    }
 }
 
 #ueberschrift1 {
-	font-family: 'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 
 .banner-text {
-	font-family: 'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 
 #size {
-	width:200px;
-	height:200px;
+    width: 200px;
+    height: 200px;
 }
+
 #size1 {
-	width:200px;
-	height:200px;
+    width: 200px;
+    height: 200px;
+}
+
+.white {
+	color: white;
 }
